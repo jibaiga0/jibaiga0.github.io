@@ -28,14 +28,19 @@
                 <table>
                     <tr>
                         <th>0</th>
-                        <th>移動到游標所在行行首</th>
+                        <th>移動到行行首</th>
                     </tr>
                     <tr>
                         <th>$</th>
-                        <th>移動到游標所在行行尾</th>
+                        <th>移動到行尾</th>
+                    </tr>
+                    <tr>
+                        <th>^</th>
+                        <th>移動到行首第一個非空白字元</th>
                     </tr>
                 </table>
-                在目前頁面中移動：
+                <br>
+                在頁面「中」移動：
                 <table>
                     <tr>
                         <th>H</th>
@@ -50,6 +55,9 @@
                         <th>移至本頁最末行</th>
                     </tr>
                 </table>
+                <br>
+                在頁面「之間」移動
+                <br>
                 換頁:
                 <table>
                     <tr>
@@ -60,7 +68,8 @@
                         <th>Ctrl+B</th>
                         <th>下一頁</th>
                     </tr>
-                    </table>
+                </table>
+                <br>
                 換半頁：
                 <table>
                     <tr>
@@ -72,7 +81,11 @@
                         <th>往上半頁</th>
                     </tr>
                 </table>
-                其實看到這邊大家應該有稍稍感覺到一件事情，就是VIM很多指令都是可以「念」出來的，像上面這幾個Ctrl+D(own), Ctrl+U(p), M(iddle),H(ight)……等等，還有像是之前提到的i(nsert)，a(ppend)……多不勝數，所以在「一週學會Vim」影片中，講者也提到，學Vim就是要把指令「念」出來，像是ci"，ci)，或是di}……只要一念出來就知道是幹啥用的指令了。<br> 
+                <br>
+                其實看到這邊大家應該有稍稍感覺到一件事情，就是VIM很多指令都是可以「念」出來的，像上面這幾個Ctrl+D(own), Ctrl+U(p), M(iddle),H(ight)……等等，還有像是之前提到的i(nsert)，a(ppend)，w(ord)……多不勝數，所以在「一週學會Vim」影片中，講者也提到，學Vim就是要把指令「念」出來，像是ci"，ci)，或是di}……只要一念出來就知道是幹啥用的指令了。<br> 
+                <br>
+                <p class="tab">
+                    兩個有趣的部落格可以參考： <a href="http://yanpritzker.com/2011/12/16/learn-to-speak-vim-verbs-nouns-and-modifiers/">Learn to speak vim</a>，學會「說」Vim，這個部落格還有很多關於Vim的文章，很值得去看看； <a href="http://benmccormick.org/2014/07/02/learning-vim-in-2014-vim-as-language/">Vim as Language</a>, Vim做為一種語言，同樣有一系列關於Vim的文章，同樣值得去看看。
             <h3>第二節編輯</h3>
                 <p>
                 在我還是個「初心者」的時候，知道怎麼進入插入模式、怎麼回到一般模式、怎樣存檔、怎樣退出Vim好像也就可以順利的完成文件輸入/編輯的工作，但是那種「Vim好強好厲害」的感覺是一丁點兒也沒有!<br>
