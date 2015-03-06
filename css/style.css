@@ -20,27 +20,29 @@ body {
 
 }
 
-@media screen and (min-width: 800px){
+@media screen and (min-width: 1024px){
 	#contentArea {
-				width: 750px;
-				margin: 3em auto;
+				width: 800px;
+				margin: 5em auto;
 				padding: 10px 30px 10px 80px;
 				background-color: #3d5955;
 				border-top-left-radius: 2em 2em;
+                position: absolute; 
+                right : 0px;
 	}
 	
 	header {
                 position:fixed;
                 top:0px;
                 left:0px;
-				padding: 0px 50px;
+				padding: 0px 10px 10px 50px;
 				width:105px;
 				background-color: #406661;
                 border-bottom-right-radius:2em 2em;
 	}
 }
 
-@media screen and (max-width: 799px){
+@media screen and (max-width: 1024px){
 #contentArea {
 				width: auto;				
 				margin: 2em auto;
@@ -50,7 +52,7 @@ body {
 	}
 	
 	header {
-				padding: 0px 50px;
+				padding: 0px 0px 0px 50px;
 				width:auto;
                 max-width:105px;
 				background-color: #406661;
