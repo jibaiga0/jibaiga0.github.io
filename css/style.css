@@ -30,9 +30,13 @@ body {
 	}
 	
 	header {
+                position:fixed;
+                top:0px;
+                left:0px;
 				padding: 0px 50px;
-				width:1025px;
+				width:115px;
 				background-color: #406661;
+                border-bottom-right-radius:2em 2em;
 	}
 }
 
@@ -49,6 +53,9 @@ body {
 				padding: 0px 50px;
 				width:auto;
 				background-color: #406661;
+                border-bottom-right-radius:2em 2em;
+
+
 	}
 }
 
@@ -68,8 +75,13 @@ table {
 
 }
 
+h1  {
+    font-family:"文泉驛正黑","WenQuanYi Zen Hei","儷黑 Pro","LiHei Pro","微軟正黑體","Microsoft JhengHei",sans-serif;
+    color:#dec03b;
+    font-weight:normal;
+}
 
-h1, h2, h3, h4 {
+h2, h3, h4 {
 				font-family: WTLI,"UMing", "SimSun";
 				color: #dec03b;
 				font-weight: normal;
@@ -78,6 +90,7 @@ h1, h2, h3, h4 {
 
 a:link, a:visited {
 				color: #f3e9b9;
+                text-decoration: none;
 }
 
 .tab{
