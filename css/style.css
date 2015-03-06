@@ -22,9 +22,9 @@ body {
 
 @media screen and (min-width: 800px){
 	#contentArea {
-				width: 800px;
-				margin: 1em auto;
-				padding: 50px;
+				width: 750px;
+				margin: 3em auto;
+				padding: 10px 30px 10px 80px;
 				background-color: #3d5955;
 				border-top-left-radius: 2em 2em;
 	}
@@ -34,7 +34,7 @@ body {
                 top:0px;
                 left:0px;
 				padding: 0px 50px;
-				width:115px;
+				width:105px;
 				background-color: #406661;
                 border-bottom-right-radius:2em 2em;
 	}
@@ -43,8 +43,8 @@ body {
 @media screen and (max-width: 799px){
 #contentArea {
 				width: auto;				
-				margin: 1em auto;
-				padding: 50px;
+				margin: 2em auto;
+				padding: 60px;
 				background-color: #3d5955;
 				border-top-left-radius: 2em 2em;
 	}
@@ -52,6 +52,7 @@ body {
 	header {
 				padding: 0px 50px;
 				width:auto;
+                max-width:105px;
 				background-color: #406661;
                 border-bottom-right-radius:2em 2em;
 
@@ -89,7 +90,7 @@ h2, h3, h4 {
 
 
 a:link, a:visited {
-				color: #f3e9b9;
+				color: #ffff87;
                 text-decoration: none;
 }
 
