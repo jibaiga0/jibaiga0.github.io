@@ -1,81 +1,75 @@
 @font-face {
-				font-family: WTLI;
-				src: url('./wt021.ttf');
+    font-family: WTLI;
+    src: url('./wt021.ttf');
 }
 
 body {
-				background-color: #C7EDCC;
-				background-image: url('../img/rice.jpg');
-				background-repeat: no-repeat;
-				background-attachment:fixed;
-				background-size: 100% 100%;
-				margin: 0px;
-				padding: 0px;
-				font-family:"文泉驛正黑","WenQuanYi Zen Hei","儷黑 Pro","LiHei Pro","微軟正黑體","Microsoft JhengHei",sans-serif;
-				color: #f3e9b9;
-				letter-spacing: 0.035em;
-				font-size: 1.2em;
-				line-height: 1.6;
-				text-align: justify;
-
+    background-color: #C7EDCC;
+    background-image: url('../img/rice.jpg');
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: 100% 100%;
+    margin: 0px;
+    padding: 0px;
+    font-family:"文泉驛正黑","WenQuanYi Zen Hei","儷黑 Pro","LiHei Pro","微軟正黑體","Microsoft JhengHei",sans-serif;
+    color: #f3e9b9;
+    letter-spacing: 0.03em;
+    font-size: 1.1em;
+    line-height: 1.6;
+    text-align: justify;
 }
 
 @media screen and (min-width: 1024px){
-	#contentArea {
-				width: 800px;
-				margin: 5em auto;
-				padding: 10px 30px 10px 80px;
-				background-color: #3d5955;
-				border-top-left-radius: 2em 2em;
-                position: absolute; 
-                right : 0px;
-	}
-	
-	header {
-                position:fixed;
-                top:0px;
-                left:0px;
-				padding: 0px 10px 10px 50px;
-				width:105px;
-				background-color: #406661;
-                border-bottom-right-radius:2em 2em;
-	}
+    #contentArea {
+        width: 800px;
+        margin: 5em auto;
+        padding: 10px 30px 10px 80px;
+        background-color: #3d5955;
+        border-top-left-radius: 2em 2em;
+        position: absolute; 
+        right : 40px;
+    }
+
+    header {
+        position:fixed;
+        top:0px;
+        left:0px;
+        padding: 0px 10px 10px 50px;
+        width:105px;
+        background-color: #406661;
+        border-bottom-right-radius:2em 2em;
+    }
 }
 
 @media screen and (max-width: 1024px){
-#contentArea {
-				width: auto;				
-				margin: 2em auto;
-				padding: 60px;
-				background-color: #3d5955;
-				border-top-left-radius: 2em 2em;
-	}
-	
-	header {
-				padding: 0px 0px 0px 50px;
-				width:auto;
-                max-width:105px;
-				background-color: #406661;
-                border-bottom-right-radius:2em 2em;
-
-
-	}
+    #contentArea {
+        width: auto;
+        margin: 2em auto;
+        padding: 60px;
+        background-color: #3d5955;
+        border-top-left-radius: 2em 2em;
+    }
+    header {
+        padding: 0px 0px 0px 50px;
+        width:auto;
+        max-width:105px;
+        background-color: #406661;
+        border-bottom-right-radius:2em 2em;
+    }
 }
 
-
 th,tr {
-				border:solid 1px;
-				text-align:left;
-				padding-left:4px;
-				padding-right:10px;
-				font-family:WTLI, "UMing", "SimSun";
-				color: #ffba8e;
-				font-weight: normal;
+    border:solid 1px;
+    text-align:left;
+    padding-left:4px;
+    padding-right:10px;
+    font-family:WTLI, "UMing", "SimSun";
+    color: #ffba8e;
+    font-weight: normal;
 }
 
 table {
-				margin:1em 0em 0em 5em;
-
+    margin:1em 0em 0em 5em;
 }
 
 h1  {
@@ -85,18 +79,17 @@ h1  {
 }
 
 h2, h3, h4 {
-				font-family: WTLI,"UMing", "SimSun";
-				color: #dec03b;
-				font-weight: normal;
+    font-family: WTLI,"UMing", "SimSun";
+    color: #dec03b;
+    font-weight: normal;
 }
 
-
 a:link, a:visited {
-				color: #ffff87;
-                text-decoration: none;
+    color: #ffff87;
+    text-decoration: none;
 }
 
 .tab{
-				margin-left:30px;
-				font-size: 0.8em;
+    margin-left:30px;
+    font-size: 0.8em;
 }
