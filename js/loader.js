@@ -42,6 +42,11 @@ $("#fifth").click(function() {
             });
 /*fifth chapter loading script*/
 
+$("#sixth").click(function() {
+                $("#contentArea").load("pages/sixth.html div");
+            });
+/*sixth chapter loading script*/
+
 $("#colornumber").click(function() {
                 $("#contentArea").load("pages/colornumber.html div");
             });
