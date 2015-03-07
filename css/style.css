@@ -34,35 +34,40 @@ ul{
         right : 0px;
     }
 
-    header {
+    #name {
         position:fixed;
         top:0px;
         left:0px;
-        padding: 0px 10px 10px 50px;
+        padding: 7px 10px 10px 50px;
         width:105px;
         height:50px;
         background-color: #406661;
         border-bottom-right-radius:2em 2em;
-        transition: border-bottom-right-radius 1s linear;
+        transition: border-bottom-right-radius 1s linear 0.2s;
+        z-index:5;
     }
 
     #menu{
         position:fixed;
-        top:42px;
+        top:-542px;
+        transition: top 1.5s linear;
         left:0px;
         padding: 0px 10px 10px 50px;
         width:105px;
         background-color:#406661;
         border-bottom-right-radius:2em 2em;
-        opacity:0;
-        transition: opacity 1s ease-in-out 0.3s;
+        z-index: 3;
+       /* opacity:0;
+        transition: opacity 1s ease-in-out 0.3s;*/
     }
 
-    header:hover {
+    #name:hover {
         border-bottom-right-radius:0;
     }
+
     header:hover > #menu{
-        opacity:1;
+        top:42px;
+        /*opacity:1;*/
     }
 }
 
