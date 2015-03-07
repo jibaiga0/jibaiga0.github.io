@@ -6,7 +6,7 @@ $("#vimfront").click(function() {
             });
 
 $("#whystart").click(function() {
-                $("#contentArea").load("./whystart.html #whystart");
+                $("#contentArea").load("pages/whystart.html #whystart");
                 $("html,body").animate({
                     scrollTop:0
                 },1000);
