@@ -8,41 +8,7 @@
     </head>
     <body>
         <header>
-            <div id="name">
-            <a href="https://jibaiga0.github.io/"><img src="img/icon.png" height="45" alt="猴子學苑"></a>
-            <!--PanSus Institute 
-            -->
-            <br>
-        </div>
-        <div id="menu">
-            <br>
-                <a href="https://jibaiga0.github.io/vimfront.html">VIM</a>
-            <br>
-            <br>
-                <a href="https://jibaiga0.github.io/GIT.html">GIT</a>
-            <br>
-            <br>
-                <a href="https://jibaiga0.github.io/LINUX.html">LNX</a>
-            <br>
-            <br>
-                <a href="https://jibaiga0.github.io/LANGUAGE.html">語言</a>
-            <br>
-            <br>
-                <a href="https://jibaiga0.github.io/WEBDEV.html">網路</a>
-            <br>
-            <br>
-                <a href="https://jibaiga0.github.io/HEALTH.html">身體</a>
-            <br>
-            <br>
-                <a href="https://jibaiga0.github.io/WORDSWORDS.html">亂評</a>
-            <br>
-            <br>
-                <a href="https://jibaiga0.github.io/TRAVEL.html">旅行</a>
-            <br>
-            <br>
-                <a href="https://jibaiga0.github.io/AGRI.html">農</a>
-        </div>
-        </header>
+       </header>
         <div id="contentArea">
             <h1>學語言</h1>
             <h2>Cahier du Grec</h2>
@@ -56,13 +22,16 @@
             </ul>
         </div>
         <div>
-        <script type="text/javascript" src="../js/jquery-2.1.3.min.js">
+        <script type="text/javascript" src="js/jquery-2.1.3.min.js">
         </script>
         
         <script>
-          if(jQuery){
-              console.log('JQ is good!');
-          }
+            if(jQuery){
+                console.log('JQ is good!');
+            }
+            $(document).ready(function(){
+                    $("header").load("header.html");
+                    });
         </script>
         <!--test JQ loaded or not!-->
         
