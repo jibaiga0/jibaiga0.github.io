@@ -80,12 +80,38 @@ ul{
         border-top-left-radius: 2em 2em;
         text-align:justify;
     }
-    header {
-        padding: 0px 0px 0px 50px;
-        width:auto;
-        max-width:105px;
+    #name {
+        position:fixed;
+        top:0px;
+        left:0px;
+        padding: 7px 10px 10px 50px;
+        width:105px;
+        height:50px;
         background-color: #406661;
         border-bottom-right-radius:2em 2em;
+        transition: border-bottom-right-radius 1s linear 0.2s;
+        z-index:5;
+    }
+    #menu{
+        position:fixed;
+        top:-542px;
+        transition: top 1.5s linear;
+        left:0px;
+        padding: 0px 10px 10px 50px;
+        width:105px;
+        background-color:#406661;
+        border-bottom-right-radius:2em 2em;
+        z-index: 3;
+       /* opacity:0;
+        transition: opacity 1s ease-in-out 0.3s;*/
+    }
+    #name:hover {
+        border-bottom-right-radius:0;
+    }
+
+    header:hover > #menu{
+        top:42px;
+        /*opacity:1;*/
     }
 }
 
@@ -126,11 +152,6 @@ a:hover{
 .tab{
     margin-left:30px;
     font-size: 0.8em;
-}
-
-img.me {
-    opacity:0.5;
-    margin:
 }
 
 h2#fpp{
