@@ -70,3 +70,11 @@ $("#colornumber").click(function() {
             });
 /*color number loading script*/
 
+$("#GCours2").click(function() {
+                $("#contentArea").load("pages/GCours/GCours.html div");
+                $("html,body").animate({
+                    scrollTop:0
+                },1000);
+            });
+/*color number loading script*/
+
