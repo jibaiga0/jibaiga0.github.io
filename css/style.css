@@ -108,10 +108,12 @@ ul{
     #name:hover {
         border-bottom-right-radius:0;
     }
-
     header:hover > #menu{
         top:42px;
         /*opacity:1;*/
+    }
+    #gao {
+        margin-right:0px;
     }
 }
 
@@ -152,8 +154,4 @@ a:hover{
 .tab{
     margin-left:30px;
     font-size: 0.8em;
-}
-
-h2#fpp{
-    text-align:right;
 }
