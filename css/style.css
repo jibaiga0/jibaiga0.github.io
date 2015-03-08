@@ -78,6 +78,7 @@ ul{
         padding: 60px;
         background-color: #3d5955;
         border-top-left-radius: 2em 2em;
+        text-align:justify;
     }
     header {
         padding: 0px 0px 0px 50px;
