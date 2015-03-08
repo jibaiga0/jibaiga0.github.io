@@ -155,3 +155,30 @@ a:hover{
     margin-left:30px;
     font-size: 0.8em;
 }
+
+
+#menu input {
+    position:absolut;
+    left:0;
+    margin-left:0;
+    opacity:0;
+    cursor:pointer;
+    height:1em;
+    width:1em;
+    top:0;
+    display:inline;
+    float:right;
+}
+
+#menu input + ul > li {
+    display:none;
+}
+
+#menu input:checked + ul > li {
+    display:block;
+} 
+
+label:hover {
+    color: #00ffff;
+}
+
