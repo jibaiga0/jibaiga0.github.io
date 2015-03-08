@@ -1,3 +1,5 @@
+
+
 $("#whystart").click(function() {
                 $("#contentArea").load("pages/whystart.html #whystart");
                 $("html,body").animate({
