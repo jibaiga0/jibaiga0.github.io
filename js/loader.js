@@ -1,11 +1,3 @@
-$("#about").click(function() {
-                $("./index.html#contentArea").load("./ABOUT.html div");
-                $("html,body").animate({
-                    scrollTop:0
-                },1000);
-});
-/*about loading script*/
-
 $("#whystart").click(function() {
                 $("#contentArea").load("pages/whystart.html #whystart");
                 $("html,body").animate({
