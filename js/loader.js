@@ -1,5 +1,5 @@
 $("#about").click(function() {
-                $("#contentArea").load("ABOUT.html div");
+                $("./index.html#contentArea").load("./ABOUT.html div");
                 $("html,body").animate({
                     scrollTop:0
                 },1000);
