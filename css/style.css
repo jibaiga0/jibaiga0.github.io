@@ -1,5 +1,28 @@
 @font-face {
     font-family: WTLI;
+    font-family:'MYuen HK Medium';
+font-family:'MYuen HK Xbold';
+font-family:'MElle HK Light';
+font-family:'MElle HK Medium';
+font-family:'MElle HK Xbold';
+font-family:'MHei HK Light';
+font-family:'MHei HK Medium';
+font-family:'MHei HK Bold';
+font-family:'MHei HK Xbold';
+font-family:'MYuen HK Light';
+font-family:'MYuen HK SemiBold';
+font-family:'MSmart HK Medium';
+font-family:'MSungGold HK Black';
+font-family:'MSung HK Medium';
+font-family:'MSung HK Bold';
+font-family:'MSung HK Xbold';
+font-family:'CHei2 HK Bold';
+font-family:'MBei HK Bold';
+font-family:'MBitmapRound HK Light';
+font-family:'MKai HK Medium';
+font-family:'MKai HK SemiBold';
+font-family:'MLi HK Bold';
+
     src: url('./wt021.ttf');
 }
 
