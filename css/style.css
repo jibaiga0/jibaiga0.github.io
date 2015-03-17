@@ -155,13 +155,13 @@ table {
 }
 
 h1  {
-    font-family:"MYuen HK Medium",sans-serif;
+    font-family:"MHei HK Bold",sans-serif;
     color:#dec03b;
     font-weight:normal;
 }
 
 h2, h3, h4 {
-    font-family: "MYuen HK Medium","UMing", "SimSun";
+    font-family: "MHei HK Bold","UMing", "SimSun";
     color: #dec03b;
     font-weight: normal;
 }
