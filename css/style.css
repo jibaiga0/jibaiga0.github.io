@@ -22,7 +22,6 @@ font-family:'MBitmapRound HK Light';
 font-family:'MKai HK Medium';
 font-family:'MKai HK SemiBold';
 font-family:'MLi HK Bold';
-
     src: url('./wt021.ttf');
 }
 
@@ -155,13 +154,13 @@ table {
 }
 
 h1  {
-    font-family:"MHei HK Bold",sans-serif;
+    font-family:"MKai HK SemiBold",sans-serif;
     color:#dec03b;
     font-weight:normal;
 }
 
 h2, h3, h4 {
-    font-family: "MHei HK Bold","UMing", "SimSun";
+    font-family: "MKai HK SemiBold","UMing", "SimSun";
     color: #dec03b;
     font-weight: normal;
 }
