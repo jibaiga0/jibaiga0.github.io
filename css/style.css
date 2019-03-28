@@ -115,7 +115,7 @@ ul{
         z-index:5;
     }
     #menu{
-        position:fixed;
+        float:left;
         top:-542px;
         transition: top 1.5s linear;
         left:0px;
